@@ -1,0 +1,17 @@
+# Ensure consistent line endings across systems
+* text=auto eol=lf
+
+# Typescript / JavaScript
+*.ts text eol=lf
+*.js text eol=lf
+
+# JSON / YAML / Config files
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Markdown / Docs
+*.md text eol=lf
+
+# Shell / Scripts
+*.sh text eol=lf

@@ -1,0 +1,97 @@
+# ============================================================
+# 📦 Node / PNPM
+# ============================================================
+node_modules/
+.pnpm-store/
+.pnp.*
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+
+# ============================================================
+# ⚙️ Turborepo / Build Artifacts
+# ============================================================
+.turbo/
+dist/
+build/
+.cache/
+temp/
+.tmp/
+
+# ============================================================
+# 🧠 TypeScript
+# ============================================================
+*.tsbuildinfo
+
+# ============================================================
+# 🧰 Logs
+# ============================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+yarn-error.log*
+
+# ============================================================
+# 🔐 Environment / Secrets
+# ============================================================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# ============================================================
+# 🧑‍💻 IDE / Editor Files
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.orig
+
+# ============================================================
+# ⚡ Angular (apps/frontend)
+# ============================================================
+apps/frontend/dist/
+apps/frontend/out-tsc/
+apps/frontend/tmp/
+apps/frontend/coverage/
+apps/frontend/e2e/test-output/
+apps/frontend/.angular/
+apps/frontend/.angular/cache/
+apps/frontend/.angular/compiler/
+
+# Angular CLI artifacts
+apps/frontend/.angular-cli.json
+apps/frontend/.ng/
+
+# ============================================================
+# 🚀 NestJS (apps/backend)
+# ============================================================
+apps/backend/dist/
+apps/backend/build/
+apps/backend/tmp/
+apps/backend/.env
+apps/backend/logs/
+apps/backend/nest-debug.log
+
+# ============================================================
+# 🧪 Tests / Coverage
+# ============================================================
+coverage/
+.nyc_output/
+
+# ============================================================
+# 🧩 Packages (shared)
+# ============================================================
+packages/*/dist/
+packages/*/build/
+packages/*/.tsbuildinfo

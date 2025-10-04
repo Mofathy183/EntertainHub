@@ -1,0 +1,34 @@
+{
+	"name": "entertainhub",
+	"version": "1.0.0",
+	"private": true,
+	"description": "🎬 EntertainHub — a fun monorepo mixing NestJS, Angular, and classic DSA magic!",
+	"license": "MIT",
+	"author": "Mohamed Fathy",
+	"packageManager": "pnpm@10.16.0",
+	"scripts": {
+		"dev": "pnpm turbo run dev --parallel",
+		"build": "pnpm turbo run build",
+		"lint": "pnpm turbo run lint",
+		"test": "pnpm turbo run test",
+		"format": "prettier --write .",
+		"clean": "pnpm dlx rimraf dist .turbo node_modules"
+	},
+	"devDependencies": {
+		"turbo": "^2.5.8",
+		"typescript": "^5.9.3",
+		"prettier": "^3.6.2"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"keywords": [
+		"nest",
+		"angular",
+		"monorepo",
+		"turbo",
+		"pnpm",
+		"typescript",
+		"entertainhub"
+	]
+}

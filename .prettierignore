@@ -1,0 +1,32 @@
+# Ignore build artifacts
+/dist
+/out-tsc
+
+# Ignore Angular cache
+/.angular
+
+# Node modules
+/node_modules
+
+# Environment files
+/src/environments/*.ts
+
+# Compiled files
+*.min.js
+*.bundle.js
+*.map
+
+# Git-related
+.git
+.gitignore
+
+# Misc
+package-lock.json
+yarn.lock
+
+# IDE settings
+.vscode
+.idea
+
+# Ignore assets
+/src/assets/*
