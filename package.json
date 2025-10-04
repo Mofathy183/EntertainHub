@@ -7,10 +7,10 @@
 	"author": "Mohamed Fathy",
 	"packageManager": "pnpm@10.16.0",
 	"scripts": {
-		"dev": "pnpm turbo run dev --parallel",
-		"build": "pnpm turbo run build",
-		"lint": "pnpm turbo run lint",
-		"test": "pnpm turbo run test",
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"lint": "turbo lint",
+		"test": "turbo test",
 		"format": "prettier --write .",
 		"clean": "pnpm dlx rimraf dist .turbo node_modules"
 	},

@@ -74,14 +74,15 @@ apps/frontend/.angular-cli.json
 apps/frontend/.ng/
 
 # ============================================================
-# 🚀 NestJS (apps/backend)
+# 🚀 NestJS (apps/api)
 # ============================================================
-apps/backend/dist/
-apps/backend/build/
-apps/backend/tmp/
-apps/backend/.env
-apps/backend/logs/
-apps/backend/nest-debug.log
+apps/api/.turbo/
+apps/api/dist/
+apps/api/build/
+apps/api/tmp/
+apps/api/.env
+apps/api/logs/
+apps/api/nest-debug.log
 
 # ============================================================
 # 🧪 Tests / Coverage
