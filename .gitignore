@@ -58,20 +58,20 @@ Thumbs.db
 *.orig
 
 # ============================================================
-# ⚡ Angular (apps/frontend)
+# ⚡ Angular (apps/web)
 # ============================================================
-apps/frontend/dist/
-apps/frontend/out-tsc/
-apps/frontend/tmp/
-apps/frontend/coverage/
-apps/frontend/e2e/test-output/
-apps/frontend/.angular/
-apps/frontend/.angular/cache/
-apps/frontend/.angular/compiler/
+apps/web/dist/
+apps/web/out-tsc/
+apps/web/tmp/
+apps/web/coverage/
+apps/web/e2e/test-output/
+apps/web/.angular/
+apps/web/.angular/cache/
+apps/web/.angular/compiler/
 
 # Angular CLI artifacts
-apps/frontend/.angular-cli.json
-apps/frontend/.ng/
+apps/web/.angular-cli.json
+apps/web/.ng/
 
 # ============================================================
 # 🚀 NestJS (apps/api)
