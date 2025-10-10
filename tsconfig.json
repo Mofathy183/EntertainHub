@@ -12,57 +12,11 @@
 		"isolatedModules": false,
 		"sourceMap": true,
 		"baseUrl": ".",
-		// "paths": {
-		//     "@entertainhub/utils/*": ["packages/utils/src/*"],
-		//     "@entertainhub/types/*": ["packages/types/src/*"],
-		//     "@entertainhub/ui/*": ["packages/ui/src/*"]
-		// },
+		"paths": {
+			"@api/*": ["apps/api/src/*"],
+			"@web/*": ["apps/web/src/*"]
+		},
 		"outDir": "dist"
 	},
 	"exclude": ["node_modules", "dist"]
 }
-
-// {
-//   // Visit https://aka.ms/tsconfig to read more about this file
-//   "compilerOptions": {
-//     // File Layout
-//     // "rootDir": "./src",
-//     // "outDir": "./dist",
-
-//     // Environment Settings
-//     // See also https://aka.ms/tsconfig/module
-//     "module": "",
-//     "target": "esnext",
-//     "types": [],
-//     // For nodejs:
-//     // "lib": ["esnext"],
-//     // "types": ["node"],
-//     // and npm install -D @types/node
-
-//     // Other Outputs
-//     "sourceMap": true,
-//     "declaration": true,
-//     "declarationMap": true,
-
-//     // Stricter Typechecking Options
-//     "noUncheckedIndexedAccess": true,
-//     "exactOptionalPropertyTypes": true,
-
-//     // Style Options
-//     // "noImplicitReturns": true,
-//     // "noImplicitOverride": true,
-//     // "noUnusedLocals": true,
-//     // "noUnusedParameters": true,
-//     // "noFallthroughCasesInSwitch": true,
-//     // "noPropertyAccessFromIndexSignature": true,
-
-//     // Recommended Options
-//     "strict": true,
-//     "jsx": "react-jsx",
-//     "verbatimModuleSyntax": true,
-//     "isolatedModules": true,
-//     "noUncheckedSideEffectImports": true,
-//     "moduleDetection": "force",
-//     "skipLibCheck": true,
-//   }
-// }
